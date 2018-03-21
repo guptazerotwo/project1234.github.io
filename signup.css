@@ -1,0 +1,138 @@
+ html {
+    background-image: url(back2.jpg);
+  min-width: 50%;
+  min-height: 50%;
+  margin:0;
+  padding: 0;
+
+}
+.formCon {
+  
+  width: 50%;
+  margin: 8 auto 10 auto;
+  text-align: center;
+}
+.formCon > h1 {
+  color:saddlebrown;
+  
+}
+.formCon > #signupForm > button {
+  width: 70%;
+  height: 3.5;
+  border:solid;
+  font-size: 1.2em;
+  
+  outline: none;
+  margin-bottom: 20px;
+}
+.formCon > #signupForm > .input-icon-wrap {
+  position: relative;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.6);
+  color: #282828;
+  padding-top: 0.6em;
+  width: 70%;
+}
+
+.formCon > #signupForm > .input-icon-wrap > input {
+  display: inline-block;
+  width: 80%;
+  max-width: 500px;
+  height: 3.5em;
+  border: none;
+  font-size: 1em;
+  text-indent: 2em;
+  background-color: rgba(0,0,0,0);
+}
+.formCon > #signupForm > .input-icon-wrap > input:focus {
+  outline: none;
+}
+.formCon > #signupForm > .input-icon-wrap > .requirements {
+  max-height: 0px;
+  transition: 0.3s ease-in-out;
+  overflow: hidden;
+  font-style: italic;
+  font-size: 0.8em;
+  color: black;
+  text-align: left;
+  padding-left: calc(15px + 2.5vw);
+  margin: -1.5em 0 0 0;
+  padding-bottom: 1em;
+}
+
+.formCon > #signupForm > .input-icon-wrap:not(:nth-of-type(5)):after {
+  content : "";
+  position: absolute;
+  left    : 7.5%;
+  bottom  : 0;
+  height  : 1px;
+  width   : 85%;  /* or 100px */
+  border-bottom:1px solid grey;
+}
+
+.formCon .input-icon-wrap > .fa {
+  display: inline-block;
+  font-size: 1.8em;
+  height: 2em;
+}
+.formPadding {
+  padding: 30px;
+}
+
+#submitBtn:disabled {
+  display:none;
+}
+.uppercase { text-transform: uppercase;
+}
+
+
+
+
+
+
+button.social-signin.facebook {
+  background: #32508E;
+}
+
+button.social-signin.twitter {
+  background: #55ACEE;
+}
+
+button.social-signin.google {
+  background: #DD4B39;
+}
+button.social-signin.GitHub {
+  background: #282828;
+}
+button.social-signin {
+  margin-bottom: 20px;
+  width: 220px;
+  height: 36px;
+  border: none;
+  border-radius: 2px;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+button.social-signin:hover,
+button.social-signin:focus {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.2s ease;
+}
+
+button.social-signin:active {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  transition: 0.2s ease;
+}
+
+.button {
+    height: 50px;
+    width: 100px;
+   margin-top: 10px;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+}
